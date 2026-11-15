@@ -4,6 +4,8 @@
 
 The web app currently runs a similarity algorithm between data on **Earth** (currently junk) and **Mars** (scraped from NASA databases and averaged).
 
+visit the web app here : https://projectares-luna.streamlit.app/
+
 ### To run:
 
 If `uv` is not installed, do so:
