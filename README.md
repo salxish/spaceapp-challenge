@@ -1,3 +1,4 @@
+
 # Project Ares-Luna
 ## The Kepler 5
 
@@ -6,6 +7,7 @@ The web app currently runs a similarity algorithm between data on **Earth** (cur
 ### To run:
 
 If `uv` is not installed, do so:
+
 *Unix:*
 ```bash
 curl -LsSf https://astral.sh | sh
@@ -39,3 +41,14 @@ using one script for Mars [(mars_data.py)](spaceapp-challenge/scripts/mars_data.
 >intitially we began with trying to process Shackleton Crater's topology data to develop an understanding of how to process such data using Python whilst learning Rasterio knowing the focus was on Mars' Crater's. familiarising my self with processing datasets of this variety allowed me to collaborate further with my team moving past solely reproducible slope and elevation data and expanding towards infrared temperature data.
 
 >the decision to not use QGIS did slow progression of the project, but it's incredibly important to understand the following: NASA's THEMIS and MOLA record data with variations between formatting. in figuring out how to use Python and Rasterio to process elevation and temperature, we were able to recognise similarities in the slope and temperature of the craters and better compare them to similar locations on Earth by coordinates. 
+
+### @kentran810's input:
+> 2 days is a short amount of time! Initial ideas were much more sophisticated involving a heatmap-style similarity navigateable Earth map to streamline the process of selecting a good landing emulation location, and it's something I'd really like to push forward if this project progresses. 
+
+> I'm really rusty with `streamlit` - AI was used in the development of the layout and structure of the web app.
+
+> Ideally we need a different sort of dataset - I really wished some sort of spatial topology map that I could train a neural network to evaluate existed so I could really use my forte!!
+
+> Still not too unhappy with how my end turned out, was a nice refresher of building frontends!
+
+> Thanks to the rest of the team for their contributions!! 🫶
