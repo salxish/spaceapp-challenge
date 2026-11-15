@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e4e6f00-cdec-4505-a992-4b803ffcd0f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/spaceapp-challenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/mars_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/mars_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/moon_elevations.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="21" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000242778467943" />
+      <entry key="MS500" value="1.1194103670478046" />
+      <entry key="S2" value="1.5878418593738846" />
+      <entry key="S5" value="1.808545014009735" />
+      <entry key="S10" value="1.899191333734672" />
+      <entry key="S30" value="1.9704544699202162" />
+      <entry key="S60" value="2.171217460730494" />
+      <entry key="M2" value="3.4440679347305805" />
+      <entry key="M5" value="7.693176600330617" />
+      <entry key="M10" value="14.042581214897064" />
+      <entry key="M15" value="20.15278549533706" />
+      <entry key="M30" value="33.389874589507144" />
+      <entry key="H1" value="49.175237636765885" />
+      <entry key="H2" value="88.37734784833839" />
+      <entry key="H4" value="190.19139501154356" />
+      <entry key="D1" value="541.473918281618" />
+      <entry key="W1" value="671.7728865118131" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="9.025447826848146E-153" />
+      <entry key="S10" value="9.500235695417337E-77" />
+      <entry key="S30" value="4.5630500311231794E-26" />
+      <entry key="S60" value="2.154236367911732E-13" />
+      <entry key="M2" value="5.359288135838452E-7" />
+      <entry key="M5" value="0.005636125182356956" />
+      <entry key="M10" value="0.14428299672795356" />
+      <entry key="M15" value="0.4334588331425665" />
+      <entry key="M30" value="1.3533085246323575" />
+      <entry key="H1" value="2.973135906670136" />
+      <entry key="H2" value="6.970311923109358" />
+      <entry key="H4" value="14.885763466530532" />
+      <entry key="D1" value="35.84786434926758" />
+      <entry key="W1" value="42.70508848665456" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9592866148882724" />
+      <entry key="MS500" value="1.1093199941775167" />
+      <entry key="S2" value="1.5835278096084555" />
+      <entry key="S5" value="1.806481553304962" />
+      <entry key="S10" value="1.8980901938678796" />
+      <entry key="S30" value="1.9700581374088313" />
+      <entry key="S60" value="2.1708801269457565" />
+      <entry key="M2" value="3.443582299027393" />
+      <entry key="M5" value="7.698216856120912" />
+      <entry key="M10" value="14.18551456184427" />
+      <entry key="M15" value="20.584093087294363" />
+      <entry key="M30" value="34.74019577697118" />
+      <entry key="H1" value="52.14483365195632" />
+      <entry key="H2" value="95.3424653498992" />
+      <entry key="H4" value="205.0705795837927" />
+      <entry key="D1" value="577.3186414084548" />
+      <entry key="W1" value="714.4774222835948" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3M6XBSidTcCkX307QBCnuSgPU4z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.elevations.executor": "Run",
+    "Python.mars_data.executor": "Run",
+    "Python.mars_elevations.executor": "Run",
+    "Python.moon_elevations.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\salxi\OneDrive\Desktop\NASA Hackathon\NASA_images\temps" />
+      <recent name="C:\Users\salxi\OneDrive\Desktop\NASA Hackathon\NASA_images\elevations" />
+      <recent name="C:\Users\salxi\OneDrive\Desktop\NASA Hackathon\NASA_images" />
+      <recent name="C:\Users\salxi\OneDrive\Desktop\NASA Hackathon" />
+      <recent name="C:\Users\salxi\OneDrive\Desktop\NASA Hackathon\scripts" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e4e6f00-cdec-4505-a992-4b803ffcd0f8" name="Changes" comment="" />
+      <created>1794671854602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794671854602</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

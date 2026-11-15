@@ -1,0 +1,30 @@
+# NASA datasets
+NASA_images/
+*.LBL
+*.lbl
+*.IMG
+*.img
+*.tif
+*.tiff
+*.xml
+*.dat
+
+# Python Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Jupyter Notebooks Checkpoints
+.ipynb_checkpoints/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
