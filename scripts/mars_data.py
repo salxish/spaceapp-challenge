@@ -17,7 +17,7 @@ def csv_gen(gale, jezero, gale_temps, jezero_temps):
     for n, t in enumerate(jezero_temps, 1):
         rows.append(dict(site=f"Jezero Crater {n}", coords="18.41°N, 77.69°E", slope_degree=round(jezero, 2),
                          pixel_size_const=463, min_temp=round(t, 2), rain_mm=0, albedo=None))
-    pd.DataFrame(rows).to_csv("mars_data.csv", index=False)
+    pd.DataFrame(rows).to_csv("../complete_datasets/mars_data.csv", index=False)
     print("saved CSV.")
 
 def gale_crater_elev():

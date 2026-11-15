@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e4e6f00-cdec-4505-a992-4b803ffcd0f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/spaceapp-challenge.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/mars_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/mars_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/moon_elevations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/mars_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/mars_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,67 +40,79 @@
     </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "salxish"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/salxish/spaceapp-challenge.git",
+    "accountId": "c1178fc5-d986-48df-8a41-98a5dc3b6771"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000242778467943" />
-      <entry key="MS500" value="1.1194103670478046" />
-      <entry key="S2" value="1.5878418593738846" />
-      <entry key="S5" value="1.808545014009735" />
-      <entry key="S10" value="1.899191333734672" />
-      <entry key="S30" value="1.9704544699202162" />
-      <entry key="S60" value="2.171217460730494" />
-      <entry key="M2" value="3.4440679347305805" />
-      <entry key="M5" value="7.693176600330617" />
-      <entry key="M10" value="14.042581214897064" />
-      <entry key="M15" value="20.15278549533706" />
-      <entry key="M30" value="33.389874589507144" />
-      <entry key="H1" value="49.175237636765885" />
-      <entry key="H2" value="88.37734784833839" />
-      <entry key="H4" value="190.19139501154356" />
-      <entry key="D1" value="541.473918281618" />
-      <entry key="W1" value="671.7728865118131" />
+      <entry key="MS100" value="1.7104498523660419" />
+      <entry key="MS500" value="3.050993686070101" />
+      <entry key="S2" value="5.828170275343562" />
+      <entry key="S5" value="7.46669548125909" />
+      <entry key="S10" value="8.566043321553385" />
+      <entry key="S30" value="11.705522760608105" />
+      <entry key="S60" value="15.690493091664115" />
+      <entry key="M2" value="32.7252801413035" />
+      <entry key="M5" value="90.77180382304068" />
+      <entry key="M10" value="141.79192048126998" />
+      <entry key="M15" value="168.5508202365517" />
+      <entry key="M30" value="207.22351581677748" />
+      <entry key="H1" value="238.58543414610577" />
+      <entry key="H2" value="285.6725903577311" />
+      <entry key="H4" value="390.8982157990422" />
+      <entry key="D1" value="748.2413996565941" />
+      <entry key="W1" value="881.2216790152931" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="9.025447826848146E-153" />
-      <entry key="S10" value="9.500235695417337E-77" />
-      <entry key="S30" value="4.5630500311231794E-26" />
-      <entry key="S60" value="2.154236367911732E-13" />
-      <entry key="M2" value="5.359288135838452E-7" />
-      <entry key="M5" value="0.005636125182356956" />
-      <entry key="M10" value="0.14428299672795356" />
-      <entry key="M15" value="0.4334588331425665" />
-      <entry key="M30" value="1.3533085246323575" />
-      <entry key="H1" value="2.973135906670136" />
-      <entry key="H2" value="6.970311923109358" />
-      <entry key="H4" value="14.885763466530532" />
-      <entry key="D1" value="35.84786434926758" />
-      <entry key="W1" value="42.70508848665456" />
+      <entry key="S5" value="1.7829692711376208E-188" />
+      <entry key="S10" value="1.33527872413875E-94" />
+      <entry key="S30" value="5.111335798120844E-32" />
+      <entry key="S60" value="2.2799900142915114E-16" />
+      <entry key="M2" value="1.7435198764037685E-8" />
+      <entry key="M5" value="0.001431886349374957" />
+      <entry key="M10" value="0.07272422689215112" />
+      <entry key="M15" value="0.2745304342182317" />
+      <entry key="M30" value="1.0770060358365923" />
+      <entry key="H1" value="2.652316956576459" />
+      <entry key="H2" value="6.583510662026203" />
+      <entry key="H4" value="14.466843347245685" />
+      <entry key="D1" value="35.67771771512981" />
+      <entry key="W1" value="42.676073205479334" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9592866148882724" />
-      <entry key="MS500" value="1.1093199941775167" />
-      <entry key="S2" value="1.5835278096084555" />
-      <entry key="S5" value="1.806481553304962" />
-      <entry key="S10" value="1.8980901938678796" />
-      <entry key="S30" value="1.9700581374088313" />
-      <entry key="S60" value="2.1708801269457565" />
-      <entry key="M2" value="3.443582299027393" />
-      <entry key="M5" value="7.698216856120912" />
-      <entry key="M10" value="14.18551456184427" />
-      <entry key="M15" value="20.584093087294363" />
-      <entry key="M30" value="34.74019577697118" />
-      <entry key="H1" value="52.14483365195632" />
-      <entry key="H2" value="95.3424653498992" />
-      <entry key="H4" value="205.0705795837927" />
-      <entry key="D1" value="577.3186414084548" />
-      <entry key="W1" value="714.4774222835948" />
+      <entry key="MS100" value="1.6589040780820183" />
+      <entry key="MS500" value="3.0246695404914203" />
+      <entry key="S2" value="5.808172068582359" />
+      <entry key="S5" value="7.455775881658005" />
+      <entry key="S10" value="8.559831221289269" />
+      <entry key="S30" value="11.702966433413168" />
+      <entry key="S60" value="15.688652331457796" />
+      <entry key="M2" value="32.722561512366525" />
+      <entry key="M5" value="90.76968439746355" />
+      <entry key="M10" value="141.86134837695715" />
+      <entry key="M15" value="168.82196756417093" />
+      <entry key="M30" value="208.29697216056718" />
+      <entry key="H1" value="241.23396148922134" />
+      <entry key="H2" value="292.2508669165177" />
+      <entry key="H4" value="405.35849831797987" />
+      <entry key="D1" value="783.9159627718531" />
+      <entry key="W1" value="923.8971958295782" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -129,11 +134,12 @@
     "Python.moon_elevations.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
@@ -146,11 +152,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\salxi\OneDrive\Desktop\NASA Hackathon\complete_datasets" />
       <recent name="C:\Users\salxi\OneDrive\Desktop\NASA Hackathon\NASA_images\temps" />
       <recent name="C:\Users\salxi\OneDrive\Desktop\NASA Hackathon\NASA_images\elevations" />
       <recent name="C:\Users\salxi\OneDrive\Desktop\NASA Hackathon\NASA_images" />
       <recent name="C:\Users\salxi\OneDrive\Desktop\NASA Hackathon" />
-      <recent name="C:\Users\salxi\OneDrive\Desktop\NASA Hackathon\scripts" />
     </key>
   </component>
   <component name="SharedIndexes">

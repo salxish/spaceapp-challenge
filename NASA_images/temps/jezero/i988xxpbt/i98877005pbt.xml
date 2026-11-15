@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1L00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/msn/v1/PDS4_MSN_1L00_1303.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/proc/v1/PDS4_PROC_1L00_1300.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/cart/v1/PDS4_CART_1L00_1970.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/geom/v1/PDS4_GEOM_1L00_1970.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/disp/v1/PDS4_DISP_1L00_1510.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/mission/ody/v1/PDS4_ODY_1L00_1010.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<Product_Observational 
+  xmlns="http://pds.nasa.gov/pds4/pds/v1" 
+  xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" 
+  xmlns:msn="http://pds.nasa.gov/pds4/msn/v1"
+  xmlns:proc="http://pds.nasa.gov/pds4/proc/v1"
+  xmlns:cart="http://pds.nasa.gov/pds4/cart/v1"
+  xmlns:geom="http://pds.nasa.gov/pds4/geom/v1"
+  xmlns:disp="http://pds.nasa.gov/pds4/disp/v1"
+  xmlns:ody="http://pds.nasa.gov/pds4/mission/ody/v1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1L00.xsd
+                      http://pds.nasa.gov/pds4/msn/v1 https://pds.nasa.gov/pds4/msn/v1/PDS4_MSN_1L00_1303.xsd 
+                      http://pds.nasa.gov/pds4/proc/v1 https://pds.nasa.gov/pds4/proc/v1/PDS4_PROC_1L00_1300.xsd 
+                      http://pds.nasa.gov/pds4/cart/v1 https://pds.nasa.gov/pds4/cart/v1/PDS4_CART_1L00_1970.xsd
+                      http://pds.nasa.gov/pds4/geom/v1 https://pds.nasa.gov/pds4/geom/v1/PDS4_GEOM_1L00_1970.xsd
+                      http://pds.nasa.gov/pds4/disp/v1 https://pds.nasa.gov/pds4/disp/v1/PDS4_DISP_1L00_1510.xsd
+                      http://pds.nasa.gov/pds4/mission/ody/v1 https://pds.nasa.gov/pds4/mission/ody/v1/PDS4_ODY_1L00_1010.xsd">
+  
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:ody.themis.geo:data_irpbt:i98877005pbt</logical_identifier>
+    <version_id>2.0</version_id>  
+    <title>I98877005PBT.IMG</title>
+    <information_model_version>1.21.0.0</information_model_version>
+    <product_class>Product_Observational</product_class>
+    <Alias_List>
+      <Alias>
+        <alternate_id>I98877005PBT.IMG</alternate_id>
+        <comment>PDS3_volume path= odtgeo_v2/data/odtip2_0090/i988xxpbt/</comment>
+      </Alias>
+    </Alias_List>
+    <Modification_History> 
+       <Modification_Detail> 
+        <modification_date>2025-06-01</modification_date> 
+        <version_id>2.0</version_id>
+        <description>ERRATA_ID=ODTIP-0090-2.0 
+          Original release of products. PDS4 XML label first generated with this version of the described data product.
+        </description>
+      </Modification_Detail> 
+    </Modification_History>
+  </Identification_Area>
+  
+  <Observation_Area>
+    <Time_Coordinates>
+      <start_date_time>2024-03-29T19:57:45.703Z</start_date_time>
+      <stop_date_time>2024-03-29T19:58:45.969Z</stop_date_time>
+      <local_true_solar_time>06:46:30</local_true_solar_time> 
+      <solar_longitude unit="deg">226.151</solar_longitude>
+    </Time_Coordinates>
+    <Primary_Result_Summary>
+      <purpose>Science</purpose>
+      <processing_level>Derived</processing_level> 
+      <description>MARS ODYSSEY THEMIS Projected Data Products, Infrared PBT Version 2.0</description>
+    </Primary_Result_Summary>
+    <Investigation_Area>
+      <name>2001 Mars Odyssey</name>
+      <type>Mission</type>
+      <Internal_Reference>
+        <lid_reference>urn:nasa:pds:context:investigation:mission.2001_mars_odyssey</lid_reference> 
+        <reference_type>data_to_investigation</reference_type>
+      </Internal_Reference>
+    </Investigation_Area>
+    <Observing_System>
+      <Observing_System_Component> 
+        <name>2001 Mars Odyssey</name> 
+        <type>Host</type>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.ody</lid_reference>
+          <reference_type>is_instrument_host</reference_type> 
+        </Internal_Reference>       
+      </Observing_System_Component> 
+      <Observing_System_Component> 
+        <name>THEMIS</name> 
+        <type>Instrument</type>
+        <description>Thermal Emission Imaging System</description> 
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:instrument:ody.themis</lid_reference>
+          <reference_type>is_instrument</reference_type> 
+        </Internal_Reference>
+      </Observing_System_Component>
+    </Observing_System>
+    <Target_Identification>
+      <name>MARS</name> 
+      <type>Planet</type>
+      <Internal_Reference>
+        <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
+        <reference_type>data_to_target</reference_type>
+      </Internal_Reference>
+    </Target_Identification>
+    <Mission_Area>
+      <msn:Mission_Information>
+        <msn:mission_phase_name>EXTENDED-9</msn:mission_phase_name>
+        <msn:release_number>0090</msn:release_number>
+        <msn:spacecraft_clock_start>1396210281.051</msn:spacecraft_clock_start>
+        <msn:spacecraft_clock_stop>1396210341.119</msn:spacecraft_clock_stop>
+        <msn:ephemeris_start_time unit="s">765014334.9</msn:ephemeris_start_time>
+        <msn:ephemeris_stop_time unit="s">765014395.2</msn:ephemeris_stop_time>
+        <msn:Orbital_Mission>
+          <msn:start_orbit_number>98877</msn:start_orbit_number>
+        </msn:Orbital_Mission>
+      </msn:Mission_Information>
+      <ody:ODY_Parameters>
+        <ody:THEMIS_Observation_Context>
+          <ody:spacecraft_orientation_pitch unit="deg">0</ody:spacecraft_orientation_pitch>
+          <ody:spacecraft_orientation_roll unit="deg">0</ody:spacecraft_orientation_roll>
+          <ody:spacecraft_orientation_yaw unit="deg">0</ody:spacecraft_orientation_yaw>
+          <ody:spacecraft_pointing_mode>NADIR</ody:spacecraft_pointing_mode>
+        </ody:THEMIS_Observation_Context>
+        <ody:THEMIS_Instrument_Attributes>
+          <ody:detector_id>IR</ody:detector_id> 
+          <ody:spatial_summing>1</ody:spatial_summing>
+          <ody:gain_number>16</ody:gain_number>
+          <ody:offset_number>4</ody:offset_number>
+          <ody:time_delay_integration_flag>Enabled</ody:time_delay_integration_flag>        
+        </ody:THEMIS_Instrument_Attributes>
+        <ody:THEMIS_Image_Properties>
+          <ody:image_id>5</ody:image_id>
+          <ody:image_duration unit="s">60.267</ody:image_duration>
+          <ody:missing_scan_lines>0</ody:missing_scan_lines>       
+          <ody:uncorrected_sclk_start_count unit="s">1396210281.051</ody:uncorrected_sclk_start_count>
+          <ody:image_description>No Description Given</ody:image_description> 
+          <ody:maximum_brightness_temperature unit="K">208.055</ody:maximum_brightness_temperature>
+          <ody:minimum_brightness_temperature unit="K">187.271</ody:minimum_brightness_temperature>
+        </ody:THEMIS_Image_Properties>      
+      </ody:ODY_Parameters>
+   </Mission_Area>
+
+    <Discipline_Area>
+      <geom:Geometry>
+        <geom:SPICE_Kernel_Files>
+          <geom:SPICE_Kernel_Identification> <!-- CK -->
+            <geom:kernel_type>CK</geom:kernel_type>
+            <geom:spice_kernel_file_name>m01_sc_ext78.bc</geom:spice_kernel_file_name> 
+            <geom:kernel_provenance>Reconstructed</geom:kernel_provenance>
+          </geom:SPICE_Kernel_Identification>
+          <geom:SPICE_Kernel_Identification> <!-- SPK -->
+            <geom:kernel_type>SPK</geom:kernel_type>
+            <geom:spice_kernel_file_name>m01_ext78.bsp</geom:spice_kernel_file_name>
+            <geom:kernel_provenance>Reconstructed</geom:kernel_provenance>
+          </geom:SPICE_Kernel_Identification>
+          <geom:SPICE_Kernel_Identification> <!-- SCLK -->
+            <geom:kernel_type>SCLK</geom:kernel_type>
+            <geom:spice_kernel_file_name>ORB1_SCLKSCET.00306.tsc</geom:spice_kernel_file_name>
+            <geom:kernel_provenance>Reconstructed</geom:kernel_provenance>
+          </geom:SPICE_Kernel_Identification>
+        </geom:SPICE_Kernel_Files>
+        <geom:Image_Display_Geometry>
+          <geom:Display_Direction>
+            <geom:horizontal_display_axis>Sample</geom:horizontal_display_axis>
+            <geom:horizontal_display_direction>Left to Right</geom:horizontal_display_direction>
+            <geom:vertical_display_axis>Line</geom:vertical_display_axis>
+            <geom:vertical_display_direction>Top to Bottom</geom:vertical_display_direction>
+          </geom:Display_Direction>
+          <geom:Object_Orientation_North_East>
+            <geom:north_azimuth unit="deg">97.294</geom:north_azimuth>
+            <geom:east_azimuth unit="deg">0.0</geom:east_azimuth> <!-- value unknown -->
+            <geom:Reference_Frame_Identification>
+              <geom:frame_spice_name>M01_SPACECRAFT</geom:frame_spice_name>
+            </geom:Reference_Frame_Identification>
+          </geom:Object_Orientation_North_East>
+        </geom:Image_Display_Geometry>
+        <geom:Geometry_Orbiter>
+          <geom:geometry_start_time_utc>2024-03-29T19:57:45.703Z</geom:geometry_start_time_utc>
+          <geom:geometry_stop_time_utc>2024-03-29T19:58:45.969Z</geom:geometry_stop_time_utc>
+          <geom:Orbiter_Identification>  
+            <geom:Coordinate_System_Identification>
+              <geom:coordinate_system_type>Planetocentric</geom:coordinate_system_type>
+              <geom:Coordinate_System_Origin_Identification>
+                <geom:body_spice_name>MARSIAU</geom:body_spice_name>
+              </geom:Coordinate_System_Origin_Identification>
+              <geom:Reference_Frame_Identification>
+                <geom:frame_spice_name>M01_SPACECRAFT</geom:frame_spice_name>
+              </geom:Reference_Frame_Identification>
+            </geom:Coordinate_System_Identification>
+          </geom:Orbiter_Identification> 
+          <geom:Pixel_Dimensions>
+            <geom:pixel_field_of_view_method>Constant</geom:pixel_field_of_view_method>
+            <geom:Pixel_Size_Projected>
+              <geom:reference_location>Target Center</geom:reference_location>
+              <geom:horizontal_pixel_footprint unit="km">0.102</geom:horizontal_pixel_footprint>
+              <geom:vertical_pixel_footprint unit="km">0.099</geom:vertical_pixel_footprint>
+            </geom:Pixel_Size_Projected>
+          </geom:Pixel_Dimensions>
+          <geom:Distances>
+            <geom:Distances_Specific>
+              <geom:target_heliocentric_distance unit="AU">1.393</geom:target_heliocentric_distance>
+              <geom:spacecraft_target_subspacecraft_distance unit="km">415.143</geom:spacecraft_target_subspacecraft_distance> 
+            </geom:Distances_Specific>
+          </geom:Distances>
+          <geom:Surface_Geometry>
+            <geom:Surface_Geometry_Specific>
+              <geom:Pixel_Intercept>
+                <geom:reference_pixel_location>Center</geom:reference_pixel_location>
+                <geom:pixel_latitude unit="deg">18.239</geom:pixel_latitude>
+                <geom:pixel_longitude unit="deg">77.073</geom:pixel_longitude>
+              </geom:Pixel_Intercept>
+              <geom:subsolar_azimuth unit="deg">205.156</geom:subsolar_azimuth>
+            </geom:Surface_Geometry_Specific>
+            <geom:Surface_Geometry_Min_Max>
+              <geom:minimum_latitude unit="deg">16.710</geom:minimum_latitude>
+              <geom:maximum_latitude unit="deg">19.766</geom:maximum_latitude>
+              <geom:minimum_longitude unit="deg">76.568</geom:minimum_longitude>
+              <geom:maximum_longitude unit="deg">77.569</geom:maximum_longitude>
+            </geom:Surface_Geometry_Min_Max>
+          </geom:Surface_Geometry>
+          <geom:Illumination_Geometry>
+            <geom:Illumination_Specific>
+              <geom:reference_pixel_location>Center</geom:reference_pixel_location>
+              <geom:emission_angle unit="deg">1.009</geom:emission_angle>
+              <geom:incidence_angle unit="deg">85.065</geom:incidence_angle>
+              <geom:phase_angle unit="deg">84.729</geom:phase_angle>
+            </geom:Illumination_Specific>
+          </geom:Illumination_Geometry>
+        </geom:Geometry_Orbiter>
+      </geom:Geometry>
+
+      <cart:Cartography>
+        <Local_Internal_Reference>
+          <local_identifier_reference>Image</local_identifier_reference>
+          <local_reference_type>cartography_parameters_to_image_object</local_reference_type>
+        </Local_Internal_Reference>
+        <cart:Spatial_Domain>
+          <cart:Bounding_Coordinates>
+            <cart:west_bounding_coordinate unit="deg">76.534</cart:west_bounding_coordinate>
+            <cart:east_bounding_coordinate unit="deg">77.545</cart:east_bounding_coordinate>
+            <cart:north_bounding_coordinate unit="deg">19.761</cart:north_bounding_coordinate>
+            <cart:south_bounding_coordinate unit="deg">16.704</cart:south_bounding_coordinate>
+          </cart:Bounding_Coordinates>
+        </cart:Spatial_Domain>
+        <cart:Spatial_Reference_Information>
+          <cart:Horizontal_Coordinate_System_Definition>
+            <cart:Planar>
+              <cart:Map_Projection>
+                <cart:map_projection_name>Sinusoidal</cart:map_projection_name>
+                 <cart:Sinusoidal>
+                  <cart:longitude_of_central_meridian unit="deg">77.071</cart:longitude_of_central_meridian>
+                  <cart:latitude_of_projection_origin unit="deg">0</cart:latitude_of_projection_origin>
+                </cart:Sinusoidal>
+                
+              </cart:Map_Projection>
+              <cart:Planar_Coordinate_Information>
+                <cart:planar_coordinate_encoding_method>Coordinate Pair</cart:planar_coordinate_encoding_method>
+                <cart:Coordinate_Representation>
+                  <cart:pixel_resolution_x unit="m/pixel">100</cart:pixel_resolution_x>
+                  <cart:pixel_resolution_y unit="m/pixel">100</cart:pixel_resolution_y>
+                  <cart:pixel_scale_x unit="pixel/deg">592.746975</cart:pixel_scale_x> 
+                  <cart:pixel_scale_y unit="pixel/deg">592.746975</cart:pixel_scale_y>
+                </cart:Coordinate_Representation>
+              </cart:Planar_Coordinate_Information>
+              <cart:Geo_Transformation>  
+                <cart:upperleft_corner_x unit="m">-30000</cart:upperleft_corner_x>
+                <cart:upperleft_corner_y unit="m">1171700</cart:upperleft_corner_y>
+              </cart:Geo_Transformation>
+            </cart:Planar>            
+            <cart:Geodetic_Model>
+              <cart:latitude_type>Planetocentric</cart:latitude_type> 
+              <cart:spheroid_name>Mars</cart:spheroid_name>
+              <cart:a_axis_radius unit="km">3396.190</cart:a_axis_radius>
+              <cart:b_axis_radius unit="km">3396.190</cart:b_axis_radius>
+              <cart:c_axis_radius unit="km">3396.190</cart:c_axis_radius>        
+              <cart:longitude_direction>Positive East</cart:longitude_direction> 
+              <cart:coordinate_system_type>Body-fixed Rotating</cart:coordinate_system_type> 
+            </cart:Geodetic_Model>
+          </cart:Horizontal_Coordinate_System_Definition>
+        </cart:Spatial_Reference_Information>
+      </cart:Cartography>
+      
+      <disp:Display_Settings> 
+        <Local_Internal_Reference>
+          <local_identifier_reference>Image</local_identifier_reference>
+          <local_reference_type>display_settings_to_array</local_reference_type>
+        </Local_Internal_Reference>
+        <disp:Display_Direction>
+          <disp:horizontal_display_axis>Sample</disp:horizontal_display_axis>
+          <disp:horizontal_display_direction>Left to Right</disp:horizontal_display_direction>
+          <disp:vertical_display_axis>Line</disp:vertical_display_axis>
+          <disp:vertical_display_direction>Top to Bottom</disp:vertical_display_direction>
+        </disp:Display_Direction>
+      </disp:Display_Settings>
+
+      <proc:Processing_Information>
+        <Local_Internal_Reference>
+          <local_identifier_reference>Image</local_identifier_reference> 
+          <local_reference_type>processing_information_to_data_object</local_reference_type>
+        </Local_Internal_Reference>
+        <proc:Process> <!-- Cal_IR_Image -->
+          <proc:name>CAL_IR_IMAGE</proc:name> 
+          <proc:description>
+            Calibration of a raw, infrared image (IREDR). Uses DN, gain and offset values from raw image with the instrument response function and a calibration flag image (IREDR); returns a calibrated spectral radiance image (IRRDR) in (W cm-2 str-1 um-1).
+          </proc:description>
+          <proc:Software>
+            <proc:Software_Program>
+              <proc:name>CAL_IR_IMAGE</proc:name> 
+              <proc:program_type_name>Davinci</proc:program_type_name>
+              <proc:program_version>5.20</proc:program_version>
+              <proc:program_start_date_time>2024-09-26T00:43:48Z</proc:program_start_date_time>
+            </proc:Software_Program>
+          </proc:Software>
+        </proc:Process> 
+        <proc:Process> <!-- Rad2TB -->
+          <proc:name>Projected Brightness Temp</proc:name>
+          <proc:description>
+            To create a projected brightness temperature image, first the ASU UDDW (Undrift and Dewobble) filter is applied to the unprojected IR-RDR QUBE in and attempt to correct for time-dependent signal  offsets.
+            The modified calibrated image is projected and the brightness temperature for a single band is determined using the radiance-to-temperature look-up tables in ASU MAKE_TEMP_RAD.
+          </proc:description>
+          <proc:Software>
+            <proc:Software_Program> <!-- UDDW -->
+              <proc:name>UDDW</proc:name>             
+              <proc:program_type_name>Davinci</proc:program_type_name>
+              <proc:program_version>1.84</proc:program_version> 
+              <proc:program_start_date_time>2024-12-18T19:55:36Z</proc:program_start_date_time> 
+            </proc:Software_Program>
+            <proc:Software_Program> <!-- make_temp_rad -->
+              <proc:name>MAKE_TEMP_RAD</proc:name> 
+              <proc:program_type_name>Davinci</proc:program_type_name>
+              <proc:program_version>2017.01</proc:program_version> 
+              <proc:program_start_date_time>2024-12-18T19:55:36Z</proc:program_start_date_time> 
+              <proc:Software_Program_Parameters> 
+                <proc:Parameter>
+                  <proc:name>Band_Number</proc:name>
+                  <proc:value>9</proc:value>
+                </proc:Parameter>
+              </proc:Software_Program_Parameters>
+            </proc:Software_Program>
+          </proc:Software>
+        </proc:Process>  
+        <proc:Process> <!-- I3Projection -->
+          <proc:name>ISIS3 Projection</proc:name>
+          <proc:description>The ISIS-3 software is used to geometrically project THEMIS standard data products. 
+            Several processing steps are required; see source projected CUB for details.
+          </proc:description>
+          <proc:Software>
+            <proc:Software_Program> 
+              <proc:name>ISIS3 Projection</proc:name> 
+              <proc:program_type_name>Integrated Software for Imaging Spectrometers (ISIS-3)</proc:program_type_name>
+              <proc:program_version>3.4.9.6114</proc:program_version> 
+              <proc:program_start_date_time>2024-12-18T19:55:36Z</proc:program_start_date_time> 
+              <proc:Software_Program_Parameters> 
+                <proc:Parameter>
+                  <proc:name>THM2ISIS</proc:name>
+                  <proc:value>2014-05-16</proc:value>
+                </proc:Parameter>
+                <proc:Parameter>
+                  <proc:name>SPICEINIT</proc:name>
+                  <proc:value>2014-04-27</proc:value> 
+                </proc:Parameter>
+                <proc:Parameter>
+                  <proc:name>CAM2MAP</proc:name>
+                  <proc:value>2013-07-11</proc:value>
+                </proc:Parameter>
+              </proc:Software_Program_Parameters>
+            </proc:Software_Program>
+          </proc:Software>
+        </proc:Process>            
+        <proc:Process> <!-- GEOMETRY_QUALITY -->
+          <proc:name>GEOMETRY_QUALITY</proc:name> 
+          <proc:description>
+            The quality of the projected location of a THEMIS image can be affected by multiple factors, which are summarized here along with the assessed GEOMETRY_QUALITY_RATING. See the GEOMETRY/GEOMETRY.PDF for a full discussion of the individual parameters.
+          </proc:description>
+          <proc:Software>
+            <proc:Software_Program> 
+              <proc:name>GEOMETRY_QUALITY</proc:name>
+              <proc:program_start_date_time>2024-12-20T14:57:18Z</proc:program_start_date_time>
+              <proc:Software_Program_Parameters>
+                <proc:Parameter>
+                  <proc:name>GEOMETRY_SOURCE_DESC</proc:name>
+                  <proc:value>RECONSTRUCTED</proc:value>
+                </proc:Parameter>
+                <proc:Parameter>
+                  <proc:name>SPACECRAFT_ORBITAL_NODE</proc:name>
+                  <proc:value>ASCENDING</proc:value>  
+                </proc:Parameter>
+                <proc:Parameter>
+                  <proc:name>SPACECRAFT_ATTITUDE_DESC</proc:name>
+                  <proc:value>(ALLSTAR,TRACKING)</proc:value>            
+                </proc:Parameter>
+                <proc:Parameter>
+                  <proc:name>SPACECRAFT_ATTITUDE_ERROR</proc:name>
+                  <proc:value>(-0.0164, 0.0067, -0.0311)</proc:value>            
+                </proc:Parameter>
+                <proc:Parameter>
+                  <proc:name>SPACECRAFT_DESAT_EVENT</proc:name>
+                  <proc:value>NO</proc:value>            
+                </proc:Parameter>
+                <proc:Parameter>
+                  <proc:name>SPACECRAFT_TELEMETRY_GAP</proc:name>
+                  <proc:value>NO</proc:value>            
+                </proc:Parameter>
+                <proc:Parameter>
+                  <proc:name>ASU_BASEMAP_NAME</proc:name>
+                  <proc:value>N/A</proc:value>            
+                </proc:Parameter>
+                <proc:Parameter>
+                  <proc:name>ASU_BASEMAP_COREG</proc:name>
+                  <proc:value>N/A</proc:value>            
+                </proc:Parameter>
+                <proc:Parameter>
+                  <proc:name>SPACECRAFT_ATTITUDE_CHANGE</proc:name>
+                  <proc:value>(0.10.0, 0.018, 0.080)</proc:value>            
+                </proc:Parameter>
+                <proc:Parameter>
+                  <proc:name>ATTITUDE_QUALITY_RATING</proc:name>
+                  <proc:value>CHECK-STABILITY</proc:value>            
+                </proc:Parameter>
+                <proc:Parameter>
+                  <proc:name>GEOMETRY_QUALITY_RATING</proc:name>
+                  <proc:value>NO-ISSUES</proc:value>            
+                </proc:Parameter>          
+              </proc:Software_Program_Parameters>
+            </proc:Software_Program>
+          </proc:Software>
+        </proc:Process> 
+      </proc:Processing_Information>
+    </Discipline_Area>
+  </Observation_Area>
+  
+  <Reference_List>
+    <Internal_Reference> <!-- BWS2 Product -->
+      <lid_reference>urn:nasa:pds:ody.themis.geo:browse_geo:i98877005bsnu</lid_reference>
+      <reference_type>data_to_browse</reference_type>
+    </Internal_Reference>
+     <Internal_Reference> <!-- IR-VIS PAIR -->
+      <lid_reference>urn:nasa:pds:ody.themis.sdp:data_visedr:v98877006edr</lid_reference>
+      <reference_type>data_to_associate</reference_type>
+      <comment>Concurrent THEMIS image observation</comment>
+    </Internal_Reference> 
+    <Internal_Reference> <!-- ody_orient_pointing.txt -->
+      <lid_reference>urn:nasa:pds:ody.themis.sdp:doc_sdp:ody_orient_point</lid_reference>
+      <reference_type>data_to_document</reference_type>
+      <comment>Description of Odyssey spacecraft pointing modes used throughout investigation</comment>
+    </Internal_Reference> 
+    <External_Reference> <!-- THEMIS published reference -->
+        <doi>10.1023/B:SPAC.0000021008.16305.94</doi>
+        <reference_text>Christensen, P.R., Jakosky, B.M., Kieffer, H.H. et al., 
+            The Thermal Emission Imaging System (THEMIS) for the Mars 2001 Odyssey Mission. 
+            Space Science Reviews 110, 85130 (2004). 
+        </reference_text>
+        <description>THEMIS Instrument overview in a journal publication</description>
+    </External_Reference>
+    <Source_Product_Internal> <!-- RDR Product -->
+      <lidvid_reference>urn:nasa:pds:ody.themis.sdp:data_irrdr:i98877005rdr::2.0</lidvid_reference>
+      <reference_type>data_to_calibrated_source_product</reference_type>
+    </Source_Product_Internal> 
+  </Reference_List>
+  
+  <File_Area_Observational>
+    <File>
+      <file_name>I98877005PBT.IMG</file_name> 
+      <creation_date_time>2024-12-18T19:55:36</creation_date_time>
+      <file_size unit="byte">4130940</file_size>
+      <records>1815</records>
+      <comment>Brightness Temperature</comment>
+    </File>
+    <Header>
+      <offset unit="byte">0</offset>
+      <object_length unit="byte">4552</object_length>
+      <parsing_standard_id>PDS3</parsing_standard_id>
+    </Header>
+    <Array_2D_Image>
+      <local_identifier>Image</local_identifier>
+      <offset unit="byte">4552</offset>
+      <axes>2</axes>
+      <axis_index_order>Last Index Fastest</axis_index_order>
+      <Element_Array>
+        <data_type>IEEE754LSBSingle</data_type>
+        <unit>KELVIN</unit>
+        <scaling_factor>1.0</scaling_factor>
+        <value_offset>0.0</value_offset>
+      </Element_Array>
+      <Axis_Array>
+        <axis_name>Line</axis_name>
+        <elements>1813</elements>
+        <sequence_number>1</sequence_number>
+      </Axis_Array>
+      <Axis_Array> 
+        <axis_name>Sample</axis_name> 
+        <elements>569</elements>
+        <sequence_number>2</sequence_number>
+      </Axis_Array>      
+      <Special_Constants>
+        <missing_constant>0</missing_constant>
+      </Special_Constants>
+    </Array_2D_Image>
+  </File_Area_Observational>
+</Product_Observational>

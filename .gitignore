@@ -1,12 +1,16 @@
 # NASA datasets
-NASA_images/
-*.LBL
-*.lbl
+NASA_images/**
+!NASA_images/**/
+!NASA_images/**/*.lbl
+!NASA_images/**/*.LBL
+!NASA_images/**/*.xml
+!NASA_images/**/*.XML
+
+# Heavy raster formats anywhere in the project
 *.IMG
 *.img
 *.tif
 *.tiff
-*.xml
 *.dat
 
 # Python Bytecode & Caches
@@ -28,3 +32,4 @@ env/
 .idea/
 .DS_Store
 Thumbs.db
+
